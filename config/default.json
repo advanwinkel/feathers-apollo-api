@@ -1,0 +1,13 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "public": "../public/",
+  "apiUrl": "https://todo-backend-rails.herokuapp.com",
+  "auth": {
+    "idField": "id",
+    "token": {
+      "secret": "BROIGkMGwlx6daeUXXfxcQD2+JyWL2kFmjzK0RkTw5CoVWgoZtreOQB6F6OaqodlpEIdcDbJ3b2Xyt3BEShj/A=="
+    },
+    "local": {}
+  }
+}
