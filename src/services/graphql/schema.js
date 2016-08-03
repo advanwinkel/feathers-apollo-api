@@ -8,7 +8,7 @@ type User {
 }
 
 type Todo {
-  id: String!
+  id: Int!
   title: String
   created_at: String
   completed: Boolean
@@ -57,13 +57,13 @@ type RootMutation {
    ): Todo
 
   editTodo (
-    id: String! # _id of todo to update
+    id: Int! # _id of todo to update
     todo: todoInput
     webtoken: String    
   ): Todo
 
   removeTodo (
-    id: String! # _id of todo to remove
+    id: Int! # _id of todo to remove
     webtoken: String    
   ): Todo
   
