@@ -1,6 +1,6 @@
-# feathers-apollo-api
+# f-aa2
 
-> Featers-Apollo server for Web api
+> Feathers Apollo server for external API with authentication
 
 ## About
 
@@ -14,7 +14,7 @@ Getting up and running is as easy as 1, 2, 3.
 2. Install your dependencies
     
     ```
-    cd path/to/feathers-apollo-api; npm install
+    cd path/to/f-aa2; npm install
     ```
 
 3. Start your app

@@ -1,6 +1,6 @@
 {
-  "name": "feathers-apollo-api",
-  "description": "Featers-Apollo server for Web api",
+  "name": "f-aa2",
+  "description": "Feathers Apollo server for external API with authentication",
   "version": "0.0.0",
   "homepage": "",
   "main": "src/",
@@ -38,11 +38,15 @@
     "feathers-errors": "^2.4.0",
     "feathers-hooks": "^1.5.4",
     "feathers-rest": "^1.4.3",
-    "graphql": "^0.6.2",
+    "feathers-sequelize": "^1.3.1",
+    "fs-extra": "^0.30.0",
+     "graphql": "^0.6.2",
     "jsonwebtoken": "^7.1.7",
     "passport": "^0.3.2",
+    "sequelize": "^3.23.6",
     "request-promise": "^4.1.0",
     "serve-favicon": "^2.3.0",
+    "sqlite3": "^3.1.4",
     "winston": "^2.2.0"
   },
   "devDependencies": {

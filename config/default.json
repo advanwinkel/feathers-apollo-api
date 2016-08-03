@@ -1,12 +1,14 @@
 {
   "host": "localhost",
   "port": 3030,
-  "public": "../public/",
+  "sqlite": "../data/fAa2.sqlite",
   "apiUrl": "https://todo-backend-rails.herokuapp.com",
+  "public": "../public/",
   "auth": {
     "idField": "id",
+    "usernameField": "username",
     "token": {
-      "secret": "BROIGkMGwlx6daeUXXfxcQD2+JyWL2kFmjzK0RkTw5CoVWgoZtreOQB6F6OaqodlpEIdcDbJ3b2Xyt3BEShj/A=="
+      "secret": "pKmoXH/AzsKYCWeCJ+Y1Q8fm0c4i1r7JOIIged41IIBWRxlgAAkaW9ak+G30CF1+gQCSeVDlYEdMQ+hu/Zwvag=="
     },
     "local": {}
   }
